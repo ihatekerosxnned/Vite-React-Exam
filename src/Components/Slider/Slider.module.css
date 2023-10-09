@@ -1,0 +1,43 @@
+.sliderContainer{
+    position: relative;
+    height: 650px;
+    margin-bottom: 3%;
+}
+.customSlider{
+    height: 650px;
+}
+.container{
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.container p{
+    font-size: 64px;
+    width: 25%;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+button.sliderButton{
+    width: 125px;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 15;
+    border: 1px solid #f3f3f3;
+    color: #f3f3f3;
+    margin: 2% 0;
+    background-color: transparent;
+    transition: 0.5s ease;
+
+}
+button:hover{
+    background-color: #f3f3f3;
+    color: #070707;
+}

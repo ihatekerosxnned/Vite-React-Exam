@@ -1,0 +1,33 @@
+li, a, button{
+    text-decoration: none;
+}
+h1.brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+h1.brand:hover{
+    color: #000000;
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    font-size: 15px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-bottom: 5px solid #f1f1f1;
+    color: #080808;
+
+}
+nav.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.navbar ul li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
